@@ -1,0 +1,7 @@
+{
+  "name": "LESTER - Programa de Lealtad",
+  "description": "Sistema administrativo para gestión de puntos, niveles de clientes, premios y validación de facturas con evidencia fotográfica.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
