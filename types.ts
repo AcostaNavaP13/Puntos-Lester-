@@ -62,8 +62,8 @@ export interface Order {
   folio: string;
   date: string;
   amount: number;
-  paymentPdf: string; // base64 PDF confirmation
-  originalOrderPdf: string; // base64 PDF original order
+  paymentPdf: string; 
+  originalOrderPdf: string; 
   notes: string;
   status: OrderStatus;
   rejectionReason?: string;
@@ -72,5 +72,5 @@ export interface Order {
 }
 
 export interface AppConfig {
-  pointRatio: number; // points = floor(amount / pointRatio)
+  pointRatio: number;
 }
